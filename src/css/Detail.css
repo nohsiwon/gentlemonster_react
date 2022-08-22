@@ -1,0 +1,211 @@
+.wrap {
+    width: 1394px;
+    margin: 177px auto 0;
+}
+
+.detailProductBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.detailProductBox img {
+    width: 100%;
+}
+
+.detailProductBox .productImgBox {
+    width: 926px;
+}
+
+.detailProductBox .productImgBox>div {
+    display: flex;
+    height: 446px;
+    margin-bottom: 10px;
+}
+
+.detailProductBox .productImgBox>div>div {
+    width: 446px;
+    height: 446px;
+}
+
+
+.detailProductBox .productImgBox>div>div:first-child {
+    margin-right: 10px;
+}
+
+.detailProductBox .productDetailBox {
+    width: 400px;
+}
+
+.detailProductBox .productDetailBox .titleBox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.detailProductBox .productDetailBox .titleBox .title {
+    flex: 1;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.detailProductBox .productDetailBox .titleBox .price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.detailProductBox .productDetailBox .productColor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.detailProductBox .productDetailBox .productColor div {
+    width: 92px;
+    height: 92px;
+    margin-bottom: 10px;
+}
+
+.detailProductBox .productDetailBox .detail {
+    margin-bottom: 40px;
+}
+
+.detailProductBox .productDetailBox .btnBox {
+    margin-bottom: 40px;
+}
+
+.detailProductBox .productDetailBox .btnBox div {
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 27.5px;
+    border: 1px solid #707070;
+    margin-bottom: 10px;
+}
+
+.detailProductBox .productDetailBox .btnBox div:first-child {
+    background-color: black;
+    color: white;
+}
+
+.detailProductBox .productDetailBox .service {
+    margin-bottom: 50px;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.accodian:first-child {
+    border-top: 1px solid #ddd;
+}
+
+.accodian {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.accodian .accodianTitle {
+    display: flex;
+}
+
+.accodian .accodianTitle div:first-child {
+    flex: 1;
+}
+
+.accodian .accodianTitle .arrow {
+    transform: rotate(0deg);
+    transition: all 0.4s;
+}
+
+.accodian .accodianTitle .arrowReverse {
+    transform: rotate(-180deg);
+    transition: all 0.4s;
+}
+
+.accodianDetail {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.6s;
+}
+
+.accodianDetail>div {
+    margin-bottom: 10px;
+}
+
+.accodianDetail>div>div {
+    margin-bottom: 3px;
+}
+
+.gift {
+    width: 300px;
+    height: 375px;
+}
+
+.opa {
+    opacity: 0;
+}
+
+.accodianHeight {
+    max-height: 380px;
+    transition: all 0.6s;
+    margin-top: 15px;
+}
+
+.styleBox {
+    margin-bottom: 120px;
+}
+
+.styleBox .titleBox {
+    margin-bottom: 40px;
+}
+
+.styleBox .titleBox .styleTitle {
+    font-size: 20px;
+}
+
+.styleBox .snsBox {
+    display: flex;
+}
+
+.styleBox .snsBox>div {
+    margin-right: 10px;
+}
+
+.styleBox .snsBox>div .img {
+    margin-bottom: 20px;
+}
+
+.recommend {
+    margin-bottom: 120px;
+}
+
+.recommend .titleBox {
+    margin-bottom: 40px;
+}
+
+.recommend .recoPro {
+    display: flex;
+}
+
+.recommend .recoPro .product {
+    margin-right: 10px;
+}
+
+.recommend .recoPro .product .img {
+    margin-bottom: 20px;
+}
+
+.recommend .recoPro .product .text .title {
+    font-size: 13px;
+}
+
+.recommend .recoPro .product .text .price {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.recommend .recoPro .product .text .color {
+    font-size: 11px;
+}

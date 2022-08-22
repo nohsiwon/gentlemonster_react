@@ -1,0 +1,124 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+    background-color: white;
+    border-bottom: 1px solid #707070;
+}
+
+.headerInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header .logoBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header .logo {
+    margin-top: 5px;
+    font-size: 30px;
+    font-family: "GentleMonster";
+}
+
+.header .list {
+    margin-top: 10px;
+    display: flex;
+    gap: 80px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.header .list .click {
+    cursor: pointer;
+}
+
+.header .loginBox {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer .footerInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer .footerInner .img {
+    margin: 40px 0 20px;
+}
+
+.footer .footerInner .logo {
+    font-family: "GentleMonster";
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.footer .footerInner .menu {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.footer .footerInner .menu>div>div {
+    width: 200px;
+    font-size: 14px;
+    color: #CCCCCC;
+    margin-bottom: 10px;
+}
+
+.footer .footerInner .menu>div>div:last-child {
+    margin-bottom: 0;
+}
+
+.footer .footerInner .menu .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer .footerInner .info .infoList {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #807E7E;
+}
+
+.footer .footerInner .info .infoList>div {
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid #807E7E;
+}
+
+.footer .footerInner .info .infoList>div:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+}
+
+.footer .footerInner .copyright {
+    font-size: 14px;
+    font-weight: bold;
+    color: #999999;
+    margin: 30px 0;
+}
